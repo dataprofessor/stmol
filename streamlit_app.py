@@ -4,7 +4,7 @@ import py3Dmol
 
 st.title('🎈 stmol')
 
-# Structure of thrombin inhibited by AERUGINOSIN298-A from a BLUE-GREEN ALGA
-xyzview = py3Dmol.view(query='pdb:1A2C') 
+# Structure of Green Fluorescent Protein from Aequoria victoria
+xyzview = py3Dmol.view(query='pdb:1EMA') 
 xyzview.setStyle({'cartoon':{'color':'spectrum'}})
 showmol(xyzview, height = 500,width=800)
